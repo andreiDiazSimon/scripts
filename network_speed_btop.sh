@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# used in ~/.tmux.conf
+
 INTERFACE="wlp2s0"
 
 RX1=$(cat /sys/class/net/$INTERFACE/statistics/rx_bytes)
